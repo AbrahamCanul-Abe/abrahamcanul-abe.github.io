@@ -1,0 +1,30 @@
+.wrt_div {
+}
+
+.wrt_h1 {
+	display: inline-block;
+	max-width: fit-content;
+	overflow: hidden;
+	color: white;
+	border-right: 0.15em solid white;
+	white-space: nowrap;
+	animation: typing 2.5s steps(20, end) forwards, blinking 1s infinite;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes blinking {
+	from {
+		border-color: transparent;
+	}
+	to {
+		border-color: white;
+	}
+}
