@@ -4,13 +4,15 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>
-			Tailwind Starter Template - Landing Page Template: Tailwind Toolbox
-		</title>
+		<title>Abraham Canul - Portfolio</title>
 		<meta name="description" content="Simple landind page" />
 		<meta name="keywords" content="" />
 		<meta name="author" content="" />
 		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/tippy.js@6/animations/scale.css"
+		/>
 		<link
 			rel="stylesheet"
 			href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"
@@ -22,18 +24,11 @@
 		/>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r119/three.min.js"></script>
 		<!-- Define your gradient here - use online tools to find a gradient matching your branding-->
-		<style>
-			.gradient {
-				background: linear-gradient(90deg, #03192f 100%, #01c1af 0%);
-			}
-		</style>
+		<style></style>
 	</head>
 	<body
 		class="leading-normal tracking-normal text-white gradient"
-		style="
-			font-family: 'Source Sans Pro', sans-serif;
-			background-color: #03192f;
-		"
+		style="font-family: 'Source Sans Pro', sans-serif"
 	>
 		<!--Nav-->
 		<nav id="navPrincipal" class="fixed w-full z-30 top-0 text-white">
@@ -201,7 +196,7 @@
 				</h2>
 				<div class="w-full mb-4">
 					<div
-						class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
+						class="h-1 mx-auto gradient2 w-64 opacity-25 my-0 py-0 rounded-t"
 					></div>
 				</div>
 				<div class="flex flex-wrap">
@@ -685,7 +680,7 @@
 				</h2>
 				<div class="w-full mb-4">
 					<div
-						class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
+						class="h-1 mx-auto gradient2 w-64 opacity-25 my-0 py-0 rounded-t"
 					></div>
 				</div>
 				<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
@@ -787,7 +782,7 @@
 				</h2>
 				<div class="w-full mb-4">
 					<div
-						class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
+						class="h-1 mx-auto gradient2 w-64 opacity-25 my-0 py-0 rounded-t"
 					></div>
 				</div>
 			</div>
@@ -836,7 +831,7 @@
 			</h2>
 			<div class="w-full mb-4">
 				<div
-					class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"
+					class="h-1 mx-auto gradient2 w-1/6 opacity-25 my-0 py-0 rounded-t"
 				></div>
 			</div>
 			<h3 class="my-4 text-3xl leading-tight">Quedo a tus ordenes!</h3>
@@ -848,32 +843,29 @@
 		</section>
 
 		<!--Footer-->
-		<footer class="">
-			<div class="container mx-auto px-2 pt-4" style="color: #01c1af">
-				<h2
-					class="w-full my-2 text-1xl font-bold leading-tight text-center"
-					style="color: #01c1af"
-				>
+		<footer class="footer">
+			<div class="container mx-auto px-2 pt-4">
+				<h2 class="w-full my-2 text-1xl font-bold text-center">
 					Diseñado y creado por: Jesús Abraham Canul Couoh
 				</h2>
 				<div class="w-full mb-4">
 					<div
-						class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
+						class="h-1 mx-auto gradient2 w-64 opacity-25 my-0 py-0 rounded-t"
 					></div>
 				</div>
 			</div>
 			<div class="container mx-auto px-8">
 				<div class="w-full flex flex-col md:flex-row py-6">
 					<div
-						class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between"
+						class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between tippy-box"
 					>
 						<a
-							class="link"
+							class="link svg_footer"
+							style="color: #01c1af"
 							href="https://www.facebook.com/Abraham.c.c.585"
 							data-tippy-content="@facebook_Abraham.c.c.585"
 							><svg
-								class="h-6 fill-current text-gray-600 svg_footer"
-								style="color: #01c1af"
+								class="h-6 fill-current"
 								role="img"
 								viewBox="0 0 24 24"
 								xmlns="http://www.w3.org/2000/svg"
@@ -885,11 +877,11 @@
 						></a>
 						<a
 							class="link"
+							style="color: #01c1af"
 							href="https://github.com/AbrahamCanul-Abe"
 							data-tippy-content="@github_AbrahamCanul-Abe"
 							><svg
-								class="h-6 fill-current text-gray-600 hover:text-green-700"
-								style="color: #01c1af"
+								class="h-6 fill-current"
 								role="img"
 								viewBox="0 0 24 24"
 								xmlns="http://www.w3.org/2000/svg"
@@ -902,10 +894,11 @@
 
 						<a
 							class="link"
+							style="color: #01c1af"
 							href="https://www.instagram.com/abe.dev_/"
 							data-tippy-content="@instagram_abe.dev_"
 							><svg
-								class="h-6 fill-current text-gray-600 hover:text-green-700"
+								class="h-6 fill-current"
 								role="img"
 								viewBox="0 0 24 24"
 								xmlns="http://www.w3.org/2000/svg"
@@ -1024,6 +1017,7 @@
 				followCursor: true,
 				// follow on x axis
 				followCursor: 'horizontal',
+				theme: 'light',
 			});
 		</script>
 	</body>

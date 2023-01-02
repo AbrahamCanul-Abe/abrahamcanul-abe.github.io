@@ -1,3 +1,4 @@
+@import 'tippy.js/themes/light.css';
 @media only screen and (min-width: 768px) {
 	.wrt_h1 {
 		display: inline-block;
@@ -28,7 +29,11 @@
 	}
 }
 
-* {
+.gradient2 {
+	background: linear-gradient(90deg, #03192f 0%, #01c1af 100%);
+}
+
+body {
 	background-color: #03192f;
 }
 
@@ -37,5 +42,9 @@
 }
 
 .svg_footer:hover {
+	color: #ffffff;
+}
+
+.link svg:hover {
 	color: #ffffff;
 }
