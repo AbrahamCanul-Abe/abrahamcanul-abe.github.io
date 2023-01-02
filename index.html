@@ -577,9 +577,53 @@
 			></textarea
 			><br />
 			<button
-				class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+				class="hover\:border-blue-900 mx-auto lg:mx-0 bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
 			>
-				Go!
+				<svg
+					viewBox="0 0 24 24"
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="25"
+					fill="none"
+				>
+					<style>
+						@keyframes mobile-vibration {
+							0%,
+							to {
+								transform: translateX(0);
+							}
+							10%,
+							30%,
+							50%,
+							70% {
+								transform: translateX(-1px);
+							}
+							20%,
+							40%,
+							60%,
+							80% {
+								transform: translateX(2px);
+							}
+							90% {
+								transform: translateX(-2px);
+							}
+						}
+					</style>
+					<g style="animation: mobile-vibration 1.5s linear infinite both">
+						<path
+							fill="#0A0A30"
+							fill-rule="evenodd"
+							d="M11.55 4.097c-1.275-.341-2.6.469-2.96 1.81L5.75 16.505c-.359 1.341.384 2.705 1.66 3.047l5.04 1.35c1.275.342 2.6-.468 2.96-1.81l2.84-10.597c.359-1.341-.384-2.705-1.66-3.047l-5.04-1.35zm-1.7 2.148c.164-.61.766-.978 1.346-.823l.31.083c-.03.07-.055.142-.075.217-.216.804.23 1.623.995 1.828l1.68.45c.765.205 1.56-.28 1.776-1.086.02-.075.035-.15.044-.225l.31.083c.58.156.917.776.753 1.386l-2.84 10.597c-.162.61-.765.978-1.345.823l-5.04-1.35c-.58-.156-.917-.776-.754-1.386L9.85 6.245zm2.82-.428l2.091.56c.04.071.053.158.03.245a.313.313 0 01-.377.23l-1.68-.45a.312.312 0 01-.211-.388.328.328 0 01.147-.197z"
+							clip-rule="evenodd"
+						/>
+						<path
+							stroke="#265BFF"
+							stroke-linecap="round"
+							stroke-width="1.5"
+							d="M6.312 8.905L5.277 12.77m13.446-.539l-1.035 3.864"
+						/>
+					</g>
+				</svg>
 			</button>
 		</section>
 
