@@ -48,3 +48,7 @@ body {
 .link svg:hover {
 	color: #ffffff;
 }
+
+#menu_bars:hover {
+	color: #ffffff;
+}

@@ -31,7 +31,11 @@
 		style="font-family: 'Source Sans Pro', sans-serif"
 	>
 		<!--Nav-->
-		<nav id="navPrincipal" class="fixed w-full z-50 top-0 text-white">
+		<nav
+			id="navPrincipal"
+			class="fixed w-full z-50 top-0 text-white"
+			style="color: #03192f"
+		>
 			<div
 				class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
 			>
@@ -48,7 +52,7 @@
 				<div class="block lg:hidden pr-4">
 					<button
 						id="nav-toggle"
-						class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+						class="menu_bars flex items-center p-1 text-pink-800 hover:text-white focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
 					>
 						<svg
 							class="fill-current h-6 w-6"
@@ -61,7 +65,8 @@
 					</button>
 				</div>
 				<div
-					class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+					class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20"
+					style="background-color: #03192f"
 					id="nav-content"
 				>
 					<ul class="list-reset lg:flex justify-end flex-1 items-center">
@@ -74,14 +79,14 @@
 						</li>
 						<li class="mr-3">
 							<a
-								class="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+								class="inline-block text-white no-underline hover:text-white-400 hover:underline transform transition hover:scale-105 duration-300 ease-in-out py-2 px-4"
 								href="#"
 								>Proyectos</a
 							>
 						</li>
 						<li class="mr-3">
 							<a
-								class="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+								class="inline-block text-white no-underline hover:text-white-800 hover:underline hover:scale-105 transform transition duration-300 ease-in-out py-2 px-4"
 								href="#"
 								>Experiencia</a
 							>
@@ -569,6 +574,7 @@
 			</div>
 			<h3 class="my-4 text-3xl leading-tight">Envíame un mensaje!</h3>
 			<textarea
+				class="w-full sm:w-1/2 sm\:px-32 sm\:mx-32 p-6"
 				name=""
 				id=""
 				cols="70"
