@@ -6,7 +6,7 @@
 		color: #01c1af;
 		border-right: 0.15em solid;
 		white-space: nowrap;
-		animation: typing 0.5s steps(20, end) forwards, blinking 1s infinite;
+		animation: typing 2.5s steps(35, end) forwards, blinking 1s infinite;
 	}
 
 	@keyframes typing {
