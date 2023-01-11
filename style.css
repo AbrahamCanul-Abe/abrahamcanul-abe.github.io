@@ -33,12 +33,12 @@
 }
 
 body {
-	background-color: #03192f;
+	background-color: #000000;
 }
 
 #navPrincipal {
 	transition: top 0.3s;
-	background-color: #03192f;
+	background-color: #000000;
 }
 
 .svg_footer:hover {
