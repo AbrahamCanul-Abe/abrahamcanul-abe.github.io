@@ -3,7 +3,6 @@
 		display: inline-block;
 		max-width: fit-content;
 		overflow: hidden;
-		color: #01c1af;
 		border-right: 0.15em solid;
 		white-space: nowrap;
 		animation: typing 2.5s steps(35, end) forwards, blinking 1s infinite;
@@ -26,6 +25,9 @@
 			border-color: #01c1af;
 		}
 	}
+}
+.wrt_h1 {
+	color: #01c1af;
 }
 
 .gradient2 {
