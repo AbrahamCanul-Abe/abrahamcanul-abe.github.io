@@ -118,3 +118,27 @@ body {
 #menu_bars:hover {
 	color: #ffffff;
 }
+
+/* scroll animation */
+.fadeTop {
+	opacity: 0;
+	transform: translate(0, 10vh);
+	transition: all 1s;
+}
+
+.fadeRight {
+	opacity: 0;
+	transform: translate(10vh, 0vh);
+	transition: all 1s;
+}
+
+.fadeLeft {
+	opacity: 0;
+	transform: translate(-10vh, 0vh);
+	transition: all 1s;
+}
+
+.visible {
+	opacity: 1;
+	transform: translate(0, 0);
+}
