@@ -142,3 +142,12 @@ body {
 	opacity: 1;
 	transform: translate(0, 0);
 }
+
+/*scroll settings*/
+section[id] {
+	scroll-margin-top: 75px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
